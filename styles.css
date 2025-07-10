@@ -1,4 +1,5 @@
-/* Reset and Base Styles */
+/* styles.css */
+
 * {
     margin: 0;
     padding: 0;
@@ -39,14 +40,8 @@
   
   .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-  }
-  
-  .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #e91e63;
   }
   
   .nav-links {
@@ -114,6 +109,7 @@
     margin-top: 2rem;
     border-top: 1px solid #333;
   }
+  
   .custom-footer {
     display: flex;
     justify-content: space-between;
@@ -157,6 +153,7 @@
     background-color: #e91e63;
     transform: scale(1.1);
   }
+  
   .center-nav {
     display: flex;
     justify-content: center;
@@ -174,7 +171,4 @@
     color: #e6e6e6;
     cursor: pointer;
   }
-  
-  
-  
   
